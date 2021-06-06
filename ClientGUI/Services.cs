@@ -15,6 +15,8 @@ namespace ClientGUI
             APIEndPoint = aPIEndPoint;
             NoOperands = noOperands;
             OperandType = operandType;
+            Status = "";
+            Reason = "";
         }
 
         public Services(string status, string reason)
